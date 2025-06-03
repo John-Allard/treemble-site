@@ -1,23 +1,74 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+/* src/pages/index.module.css */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
+.main {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.hero {
+  text-align: center;
+  max-width: 600px; /* prevent lines from getting too wide */
+  margin: 0 auto;
+}
+
+/* Logo styling */
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Title styling */
+.title {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+  line-height: 1.2;
+}
+
+/* Tagline styling */
+.tagline {
+  font-size: 1.25rem;
+  color: var(--ifm-color-text);
+  margin-bottom: 2rem;
+}
+
+/* Container for the two download links */
+.links {
+  display: flex;
+  flex-direction: column; /* stack on narrow screens */
+  align-items: center;
+  gap: 0.75rem; /* space between the two links */
+  margin-bottom: 2rem;
+}
+
+/* Plain HTML-style link (not a “button”) */
+.simpleLink {
+  font-size: 1.1rem;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.simpleLink:hover {
+  text-decoration: underline;
+}
+
+/* Keep the guide button spacing below the links */
+.guide {
+  margin-top: 1rem;
+}
+
+/* Responsive tweaks for small screens */
+@media (max-width: 480px) {
+  .logo {
+    width: 80px;
+    margin-bottom: 0.5rem;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .tagline {
+    font-size: 1.1rem;
+  }
 }

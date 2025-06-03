@@ -9,3 +9,45 @@
   height: 200px;
   width: 200px;
 }
+
+/* Screenshot section styles (outside hero) */
+.screenshots {
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screenshotTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.75rem;
+  color: var(--ifm-heading-color);
+}
+
+.screenshotGrid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.screenshotItem {
+  flex: 1;
+  min-width: 280px;
+  max-width: 450px;
+  text-align: center;
+}
+
+.screenshotImage {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.screenshotCaption {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: var(--ifm-color-text);
+}
