@@ -57,7 +57,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Treemble, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} John Allard`,
     },
     // prism: {
     //   theme: require('prism-react-renderer/themes/github'),

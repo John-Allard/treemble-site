@@ -12,4 +12,4 @@ The main UI includes:
 
 _Example screenshot below:_
 
-![UI overview](/img/ui-overview.png)
+![UI overview placeholder](https://via.placeholder.com/800x400?text=UI+Overview)
