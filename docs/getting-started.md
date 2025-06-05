@@ -9,7 +9,7 @@ You can download Treemble from:
 - [macOS Version](https://github.com/John-Allard/treemble/releases/latest/download/Treemble-macOS.dmg)
 - [Windows Version](https://github.com/John-Allard/treemble/releases/latest/download/Treemble-Windows.exe)
 
-The macOS version is a standard .dmg and the Windows version is an installer.  Both versions are only < 6 megabytes. 
+Both versions are only < 6 megabytes. 
 
 ## First Launch
 
