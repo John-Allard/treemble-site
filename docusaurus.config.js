@@ -3,8 +3,8 @@
 module.exports = {
   title: 'Treemble', 
   tagline: 'Extract and edit Newick trees from phylogenetic images',
-  url: 'https://john-allard.github.io', 
-  baseUrl: '/treemble-site/',
+  url: 'https://treemble.org', 
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/treemble-logo.png', // Use your Treemble logo as the favicon
