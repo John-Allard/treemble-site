@@ -10,6 +10,8 @@ module.exports = {
   favicon: 'img/treemble-logo.png', // Use your Treemble logo as the favicon
   organizationName: 'john-allard', // GitHub org/user name.
   projectName: 'treemble-site', // Repo name.
+  deploymentBranch: 'gh-pages',           // explicitly point to the branch you just created
+  trailingSlash: false,
 
   themeConfig: {
     navbar: {
