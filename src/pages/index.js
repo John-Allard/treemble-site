@@ -50,7 +50,7 @@ export default function Home() {
 
           {/* Link to the Docs/User Guide */}
           <div className={styles.guide}>
-            <Link className="button button--outline button--lg" to="/docs">
+            <Link className="button button--outline button--lg" to="/docs/intro">
               Read the User Guide
             </Link>
           </div>
