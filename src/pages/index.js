@@ -29,7 +29,7 @@ export default function Home() {
 
           {/* Short Tagline */}
           <p className={styles.tagline}>
-            A graphical tool to get a Newick representation from a phylogenetic tree image
+            A graphical tool to get a Newick from a phylogenetic tree image
           </p>
 
           {/* “Download” as plain HTML links with a down‐arrow icon */}
