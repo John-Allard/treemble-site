@@ -54,7 +54,7 @@ module.exports = {
             },
             {
               label: 'Contact',
-              href: 'mailto:contact@treemble.app',
+              href: 'mailto:john.allard@temple.edu',
             },
           ],
         },
