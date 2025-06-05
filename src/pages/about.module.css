@@ -1,8 +1,40 @@
 /* src/pages/about.module.css  ── minimal starter styles */
 .about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 2rem 1rem;
-  text-align: center;   /* keeps text under the headshot nicely centred */
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  max-width: 960px;
+  width: 100%;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap; /* stack on small screens */
+}
+
+.profile {
+  flex: 0 0 180px;
+}
+
+.headshot {
+  width: 180px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.text h1 {
+  margin-top: 0;
+}
+
+.text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
