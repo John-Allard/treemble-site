@@ -1,9 +1,9 @@
 // docusaurus.config.js
 
 module.exports = {
-  title: 'Treemble', 
+  title: 'Treemble',
   tagline: 'Extract and edit Newick trees from phylogenetic images',
-  url: 'https://treemble.org', 
+  url: 'https://treemble.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -22,6 +22,7 @@ module.exports = {
       },
       items: [
         { to: '/docs/intro', label: 'Docs', position: 'left' },
+        { to: '/about', label: 'About', position: 'left' },
         {
           href: 'https://github.com/John-Allard/treemble',
           label: 'GitHub',

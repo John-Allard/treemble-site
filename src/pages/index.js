@@ -61,13 +61,17 @@ export default function Home() {
           <h2 className={screenshotStyles.screenshotTitle}>What Treemble Can Do</h2>
           <div className={screenshotStyles.screenshotGrid}>
             <div className={screenshotStyles.screenshotItem}>
-              <img src={markNodesImage} alt="Feature 1" className={screenshotStyles.screenshotImage} />
+              <Link to="/docs/placing-nodes">
+                <img src={markNodesImage} alt="Feature 1" className={screenshotStyles.screenshotImage} />
+              </Link>
               <p className={screenshotStyles.screenshotCaption}>
                 Mark node locations on your image of a phylogenetic tree figure (includes automatic tip detection!)
               </p>
             </div>
             <div className={screenshotStyles.screenshotItem}>
-              <img src={newickModalImage} alt="Feature 2" className={screenshotStyles.screenshotImage} />
+              <Link to="/docs/showing-and-saving-a-newick-file">
+                <img src={newickModalImage} alt="Feature 2" className={screenshotStyles.screenshotImage} />
+              </Link>
               <p className={screenshotStyles.screenshotCaption}>
                 Automatically generates a Newick string that matches the figure!
               </p>
