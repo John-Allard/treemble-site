@@ -3,12 +3,12 @@
 module.exports = {
   title: 'Treemble', 
   tagline: 'Extract and edit Newick trees from phylogenetic images',
-  url: 'https://johnalrd.github.io', 
+  url: 'https://john-allard.github.io', 
   baseUrl: '/treemble-site/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/treemble-logo.png', // Use your Treemble logo as the favicon
-  organizationName: 'johnalrd', // GitHub org/user name.
+  organizationName: 'john-allard', // GitHub org/user name.
   projectName: 'treemble-site', // Repo name.
 
   themeConfig: {
@@ -19,7 +19,7 @@ module.exports = {
         src: 'img/treemble-logo.png',
       },
       items: [
-        { to: '/docs/getting-started', label: 'Docs', position: 'left' },
+        { to: '/docs/intro', label: 'Docs', position: 'left' },
         {
           href: 'https://github.com/John-Allard/treemble',
           label: 'GitHub',
@@ -59,10 +59,7 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} John Allard`,
     },
-    // prism: {
-    //   theme: require('prism-react-renderer/themes/github'),
-    //   darkTheme: require('prism-react-renderer/themes/dracula'),
-    // },
+
   },
 
   // Tell Docusaurus to load our custom theme CSS:
