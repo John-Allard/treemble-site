@@ -13,16 +13,18 @@ When your tree is valid Treemble can export standard Newick.
 
 Click **Show Newick**. A modal shows the string.
 
-![Newick modal screenshot](https://via.placeholder.com/800x400?text=UI+Overview)
+![Newick modal screenshot](/img/Docs/newick_modal_showing.png)
 
 ## 2. Copy or Save
 
-* **Copy** — click anywhere in the textarea and press <kbd>Ctrl C</kbd>/<kbd>⌘ C</kbd>.  
-* **Save .nwk** — press the **Save** button to download `basename.nwk`.
+* **Copy** - click anywhere in the textarea and press <kbd>Ctrl C</kbd>/<kbd>⌘ C</kbd>.  
+* **Save .nwk** - press the **Save** button to download `basename.nwk`.
 
 ## 3. Cladograms vs Phylograms
 
 If **Cladogram** mode is selected (via **Options ▾ Tree Type**), Treemble strips branch-length tokens automatically.
+
+When in **Phylogram mode** (default), The Newick display will warn you with alerts if the length has not been calibrated, if the tree is not ultrametric, or if tip names have not been added. If you are creating for which these concerns are not applicable (e.g. a non-ultrametric tree, or one lacking tip names), it is safe to ignore these warnings.  
 
 ## 4. Troubleshooting
 

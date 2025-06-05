@@ -23,16 +23,14 @@ Click **File ▾ → Save CSV**. Treemble generates text such as:
 - Rows appear in the exact order you placed the nodes.
 - Tip names are matched top-to-bottom (rectangular mode) or anticlockwise from the break point (circular mode) before being inserted into the `name` column.
 
-![Save CSV placeholder](https://via.placeholder.com/800x400?text=Save+CSV)
-
 ## 2. Load a CSV
 
-Click **File ▾ → Load CSV** and select a file with this same schema. Treemble will:
+Click **File ▾ → Load CSV** and select a file with this same schema. You can also drag and drop a CSV file onto the window. Treemble will:
 
 1. Clear all existing nodes.
 2. Re-create each node at the given `(x, y)` coordinates and assign the proper `type`.
-3. For every `tip` row, assign the `name` field as the tip label.
+3. For every `tip` row, assign the `name` field as the tip label, if the CSV file contained names.
 
 If the CSV was saved from a differently sized image, Treemble will warn you and refuse to load.
 
-![Load CSV placeholder](https://via.placeholder.com/800x400?text=Load+CSV)
+

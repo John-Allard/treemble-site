@@ -17,10 +17,10 @@ A banner prompts you to pick two calibration points.
 
 ## 3. Enter Distance
 
-A dialog asks “How many units separate these points?”  
-Enter a **numeric value** (Treemble ignores units strings).
+A dialog asks “Enter the length represented by the selected interval”  
+Enter a **numeric value**.  The units are treated as arbitrary but could represent millions of years, substitutions per site, etc.
 
-![Calibration screenshot](https://via.placeholder.com/800x400?text=UI+Overview)
+![Calibration screenshot](/img/Docs/calibration.png)
 
 ## Behind the Scenes
 
@@ -29,11 +29,13 @@ Enter a **numeric value** (Treemble ignores units strings).
 | *Rectangular* | Δ X between clicks |
 | *Circular*    | Δ radius from centre |
 
-Treemble records the conversion in **pixels per unit**. All branch-length tokens generated in Newick will be properly scaled.
+Treemble records the conversion in **units per pixel**. All branch-length tokens generated in the Newick will be properly scaled.
 
 ---
 
 ### Tips
 
-* Calibrate **after** zooming; calibration is resolution-independent.  
-* For images without a scale bar, use two tips whose distance you know.
+* Calibrate **after** zooming; calibration is resolution-independent. 
+* It is best to click points that are as far apart as you can, to minimize error.
+* Treemble scaled distances are usually within ~0.1% of their original values.
+* For images without a scale bar, you can click two nodes if you know the distance between them.

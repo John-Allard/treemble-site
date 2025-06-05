@@ -13,8 +13,6 @@ Need to compare two name lists? Treemble can flag mismatches visually.
 
 `File ▾ → Diff Tip Names CSV File` → choose a second CSV containing a **tip name** column.
 
-![Diff result](https://via.placeholder.com/800x400?text=UI+Overview)
-
 ### What Happens
 
 * Names from the diff file are **never inserted**.  

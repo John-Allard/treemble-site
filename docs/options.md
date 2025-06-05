@@ -6,9 +6,9 @@ Customize Treemble’s behaviour and appearance.
 
 ## Open the Dialog
 
-Click **Options** on the toolbar (gear icon).
+Click the **Options** button on the toolbar.
 
-![Options modal screenshot](https://via.placeholder.com/800x400?text=UI+Overview)
+![Options modal screenshot](/img/Docs/options_modal.png)
 
 ## Adjustable Settings
 
@@ -16,14 +16,12 @@ Click **Options** on the toolbar (gear icon).
 |-------|---------|-------------|
 | **Display** | Branch thickness | Stroke width of rendered branches |
 |             | Tip label color | Text color for names |
-| **Validation** | Asymmetry threshold | Ratio ≥ 5 : 1 flagged yellow |
-| **Tree Type** | Cladogram / Phylogram | Include or strip branch lengths |
-| **Circular Trees** | Default break angle | Starting 0 ° for anticlockwise ordering |
+|             | Font Size       | Font size for tip labels |
+| **Validation** | Asymmetry threshold | Ratio ≥ X : 1 flagged yellow |
+| **Tree Type** |  Phylogram / Cladogram | Cladograms will not include branch lengths in the Newick string |
+| **Tree Shape** | Rectangular / Circular | Rectangular is standard. [More on Circular Trees](/docs/circular-trees) |
 
 Changes apply immediately and are remembered per-session.
 
 ---
 
-### Resetting
-
-Click **Restore Defaults** at the bottom of the dialog to revert.

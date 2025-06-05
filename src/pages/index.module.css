@@ -13,20 +13,6 @@
   margin: 0 auto;
 }
 
-/* Logo styling */
-.logo {
-  width: 120px;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
-/* Title styling */
-.title {
-  font-size: 3rem;
-  margin: 0.5rem 0;
-  line-height: 1.2;
-}
-
 /* Tagline styling */
 .tagline {
   font-size: 1.25rem;

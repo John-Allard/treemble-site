@@ -2,7 +2,7 @@
 title: Blank Canvas & Drawing Tools
 ---
 
-Besides tracing existing figures, Treemble lets you sketch trees from scratch.
+Besides tracing existing figures, Treemble lets you sketch trees from scratch. 
 
 ## 1. Open a Blank Canvas
 
@@ -20,23 +20,17 @@ A new **Draw ▾** dropdown appears:
 | **Eraser**  | 🧽 | Circular erase tool |
 | **Clear**   | 🗑️ | Wipe the sketch layer |
 
-![Drawing tools screenshot](https://via.placeholder.com/800x400?text=UI+Overview)
+![Drawing tools screenshot](/img/Docs/blank_canvas_draw_mode.png)
 
-### Shortcuts
-
-| Action | Shortcut |
-|--------|----------|
-| Toggle Draw menu | `D` |
-| Clear sketch layer | `Shift ⌘ K` (mac) / `Shift Ctrl K` |
 
 ## 3. Converting Sketch to Tree
 
 After sketching:
 
-1. Add **Tip/Internal/Root** nodes on top of your strokes.  
-2. Click **Show Tree** — branches should match your lines.  
-3. Proceed just like an imported image (tip names, Newick, etc.).
-4. Detect tips should work to add tips automatically, as long as your tips are oriented to the right.
+1. Add **Tip/Internal/Root** nodes on top of your strokes. 
+2. Detect Tips should work to add tips automatically, as long as your tips are oriented to the right. 
+3. Click **Show Tree** — branches should match your lines.  
+4. Proceed just like an imported image (tip names, Newick, etc.).
 
 ---
 

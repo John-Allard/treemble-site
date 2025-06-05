@@ -20,13 +20,23 @@ Treemble lets you mark every **tip**, **internal**, and **root** node so it can 
 2. Click once to **add** the node.  
 3. Click the node again to **remove** it.
 
-![Placing nodes screenshot](https://via.placeholder.com/800x400?text=UI+Overview)
+![Placing nodes screenshot](/img/Docs/all_but_one_node_placed.png)
 
-## 3. Dragging Nodes
+## 3. Automatic Tip Detection
 
-*Hold&nbsp;⌘ / Ctrl and drag* (or simply drag in **Tip Detect** mode) to fine-tune a node’s position.
+Bifurcating trees always have 2n - 1 nodes where n is the number of tips, so the tips are more than half of the nodes!  Treemble will automatically detect them for you and add tip dots at their locations.  Just click **Detect Tips** in the tool bar and drag a rectangle around the tips.
 
-## 4. Keyboard Shortcut
+![Placing nodes screenshot](/img/Docs/detect_tips_rectangle.png)
+
+## 4. Equalize Tips
+
+The Equalize Tips button will allow you to click a point on the image to set all tip nodes to that X-axis position.  This is useful if you are creating a newick for a time-calibrated tree that should ultrametric.
+
+## 5. Dragging Nodes
+
+*Left click and drag* to fine-tune a node’s position.
+
+## 6. Keyboard Shortcut
 
 | Action | Shortcut |
 |--------|----------|
@@ -36,5 +46,5 @@ Treemble lets you mark every **tip**, **internal**, and **root** node so it can 
 
 ### Troubleshooting
 
-* **Accidentally placed the wrong type?** Remove it and place a new node.  
+* **Accidentally placed the wrong type?** Click it again to remove it.  
 * **Root required:** Treemble will not draw branches until a root node exists.
