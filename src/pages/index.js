@@ -4,10 +4,12 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
-import screenshotStyles from '../components/HomepageFeatures/styles.module.css';
+import screenshotStyles from './index.module.css';
 
-// Import your logo from static/img (Docusaurus auto‐serves /static as /)
+// Import images from static/img (Docusaurus auto‐serves /static as /)
 import treembleLogo from '@site/static/img/treemble-logo.png';
+import markNodesImage from '@site/static/img/mark_nodes.png';
+import newickModalImage from '@site/static/img/Treemble_pic_with_newick_modal.png';
 
 export default function Home() {
   return (
@@ -16,19 +18,18 @@ export default function Home() {
       description="Treemble: Extract and edit Newick trees from phylogenetic images.">
       <main className={styles.main}>
         <div className={styles.hero}>
-          {/* Logo */}
-          <img
-            src={treembleLogo}
-            alt="Treemble Logo"
-            className={styles.logo}
-          />
-
-          {/* Title */}
-          <h1 className={styles.title}>Treemble</h1>
+          <div className={styles.inlineTitle}>
+            <img
+              src={treembleLogo}
+              alt="Treemble Logo"
+              className={styles.inlineLogo}
+            />
+            <h1 className={styles.inlineText}>Treemble</h1>
+          </div>
 
           {/* Short Tagline */}
           <p className={styles.tagline}>
-            A graphical tool for extracting phylogenetic tree topologies from images.
+            A graphical tool to get a Newick representation from a phylogenetic tree image
           </p>
 
           {/* “Download” as plain HTML links with a down‐arrow icon */}
@@ -60,15 +61,15 @@ export default function Home() {
           <h2 className={screenshotStyles.screenshotTitle}>What Treemble Can Do</h2>
           <div className={screenshotStyles.screenshotGrid}>
             <div className={screenshotStyles.screenshotItem}>
-              <img src="/img/screenshot-placeholder1.png" alt="Feature 1" className={screenshotStyles.screenshotImage} />
+              <img src={markNodesImage} alt="Feature 1" className={screenshotStyles.screenshotImage} />
               <p className={screenshotStyles.screenshotCaption}>
-                Detect tip nodes from tree images with a single click.
+                Mark node locations on your image of a phylogenetic tree figure (includes automatic tip detection!)
               </p>
             </div>
             <div className={screenshotStyles.screenshotItem}>
-              <img src="/img/screenshot-placeholder2.png" alt="Feature 2" className={screenshotStyles.screenshotImage} />
+              <img src={newickModalImage} alt="Feature 2" className={screenshotStyles.screenshotImage} />
               <p className={screenshotStyles.screenshotCaption}>
-                Visually edit tip labels and export Newick trees.
+                Automatically generates a Newick string that matches the figure!
               </p>
             </div>
           </div>

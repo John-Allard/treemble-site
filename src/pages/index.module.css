@@ -37,10 +37,11 @@
 /* Container for the two download links */
 .links {
   display: flex;
-  flex-direction: column; /* stack on narrow screens */
-  align-items: center;
-  gap: 0.75rem; /* space between the two links */
+  flex-direction: row;  /* side-by-side */
+  justify-content: center;
+  gap: 1.5rem;           /* space between links */
   margin-bottom: 2rem;
+  flex-wrap: wrap;       /* allow wrapping on narrow screens */
 }
 
 /* Plain HTML-style link (not a “button”) */
@@ -71,4 +72,70 @@
   .tagline {
     font-size: 1.1rem;
   }
+}
+
+/* ========== Screenshot Section Styles ========== */
+
+.screenshots {
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screenshotTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.75rem;
+  color: var(--ifm-heading-color);
+}
+
+.screenshotGrid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.screenshotItem {
+  flex: 1;
+  min-width: 280px;
+  max-width: 450px;
+  text-align: center;
+}
+
+.screenshotImage {
+  width: 100%;
+  height: 280px;           /* Ensures matched height */
+  object-fit: cover;
+  object-position: top;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.screenshotCaption {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: var(--ifm-color-text);
+}
+
+
+.inlineTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.inlineLogo {
+  height: 48px;
+  width: auto;
+}
+
+.inlineText {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 1.2;
 }
