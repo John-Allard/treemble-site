@@ -1,0 +1,8 @@
+/* src/pages/about.module.css  ── minimal starter styles */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  text-align: center;   /* keeps text under the headshot nicely centred */
+}
