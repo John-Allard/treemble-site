@@ -8,7 +8,7 @@ When your tree is valid Treemble can export standard Newick.
 
 *Requirements:*  
 * `Root` node exists  
-* No free nodes  
+* No disconnected nodes  
 * Tip-name count matches tips
 
 Click **Show Newick**. A modal shows the string.
@@ -17,8 +17,8 @@ Click **Show Newick**. A modal shows the string.
 
 ## 2. Copy or Save
 
-* **Copy** - click anywhere in the textarea and press <kbd>Ctrl C</kbd>/<kbd>⌘ C</kbd>.  
-* **Save .nwk** - press the **Save** button to download `basename.nwk`.
+* **Copy** - Select the text and copy to your clipboard with <kbd>Ctrl C</kbd> or <kbd>⌘ C</kbd> on macOS.  
+* **Save Newick** - press the **Save .nwk** button to download your newick file.
 
 ## 3. Cladograms vs Phylograms
 

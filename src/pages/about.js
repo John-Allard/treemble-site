@@ -17,21 +17,23 @@ export default function About() {
           <div className={styles.text}>
             <h1>About Treemble</h1>
             <p>
-              Treemble was developed by John Allard at the{' '}
+              Treemble was developed by John Allard as a member of the{' '}
               <a href="https://www.kumarlab.net/" target="_blank" rel="noopener noreferrer">
                 Kumar Lab
               </a>{' '}
-              in the{' '}
+              and the{' '}
               <a href="https://igem.temple.edu/" target="_blank" rel="noopener noreferrer">
                 Institute for Genomics and Evolutionary Medicine
               </a>{' '}
               at Temple University.
             </p>
+            <h3>About the Creator:</h3>
             <p>
               I’m a PhD candidate in Bioinformatics at Temple University. My research focuses on
-              developing methods to apply AI and machine learning to comparative genomics. My particular
-              interest is in applying evolutionary comparative methods to understand the biology of
-              aging, longevity, and rejuvenation.
+              developing methods to apply AI and machine learning to comparative genomics, with a focus on 
+              understanding the genetic basis of traits that evolve convergently. My particular
+              interest is in leveraging evolutionary comparative methods to understand the biology of
+              extreme longevity, which has convergently evolved many times in the animal kingdom. 
             </p>
             <p>
               ➤{' '}

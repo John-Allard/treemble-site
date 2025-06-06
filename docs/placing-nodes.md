@@ -40,7 +40,7 @@ The Equalize Tips button will allow you to click a point on the image to set all
 
 | Action | Shortcut |
 |--------|----------|
-| Toggle between **Tip / Internal / Root** tools | `T`, `I`, `R` (default bindings) |
+| Toggle between **Tip / Internal / Root** tools | `T`, `I`, `R` |
 
 ---
 

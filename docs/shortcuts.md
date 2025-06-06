@@ -19,7 +19,7 @@ Boost your productivity with these hotkeys.
 | **P** | Pencil draw mode (blank canvas) |
 | **L** | Line draw mode (blank canvas) |
 | **Backspace** | Eraser (blank canvas) |
-| **Ctrl S** | Quick-save CSV |
+| **Ctrl + S** | Quick-save CSV |
 | **Enter** | Confirm the default response to dialogs (OK) |
 
 ---

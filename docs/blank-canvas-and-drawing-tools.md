@@ -7,7 +7,7 @@ Besides tracing existing figures, Treemble lets you sketch trees from scratch.
 ## 1. Open a Blank Canvas
 
 `File ▾ → Open Blank Canvas`  
-Treemble loads a 2000 × 2000 px white sheet.
+Treemble loads a 2000 × 2000 px white sheet where you can sketch a tree and place nodes.  This is useful to quickly generate a newick file with a certain topology in order to test phylogenetic hypotheses, etc.
 
 ## 2. Draw Menu
 
@@ -16,7 +16,7 @@ A new **Draw ▾** dropdown appears:
 | Option | Cursor | Use |
 |--------|--------|-----|
 | **Pencil**  | ✏️ | Freehand strokes |
-| **Line**    | 📏 | Straight connectors |
+| **Line**    | 📏 | Straight lines |
 | **Eraser**  | 🧽 | Circular erase tool |
 | **Clear**   | 🗑️ | Wipe the sketch layer |
 

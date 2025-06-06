@@ -35,7 +35,7 @@ Treemble records the conversion in **units per pixel**. All branch-length tokens
 
 ### Tips
 
-* Calibrate **after** zooming; calibration is resolution-independent. 
+* Calibrate **after** zooming in to get a more accurate placement. 
 * It is best to click points that are as far apart as you can, to minimize error.
 * Treemble scaled distances are usually within ~0.1% of their original values.
 * For images without a scale bar, you can click two nodes if you know the distance between them.

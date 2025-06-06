@@ -25,11 +25,11 @@ A banner confirms when both are set.  A marker will indicate the break point on 
 
 ## 3. Place Nodes
 
-*Tip, Internal, Root* tools work exactly the same, but Treemble stores positions as **polar coordinates** (radius r, angle θ).
+*Tip, Internal, Root* tools work exactly the same, but Treemble stores positions as **polar coordinates** (radius r, angle θ). Automatic tip detection in circular tree mode will be added in a future verion of Treemble.
 
 ## 4. Radial Labels
 
-When you click **Show Tree**, tip labels auto-rotate to stay upright.
+When you click **Show Tree**, tip name labels are displayed radially in the typical fashion for circular phylogenetic trees, and are oriented so they should be slightly below the position of names on the image. If your tips are close together, it is possible that two labels will overlap at the very bottom of the tree. 
 
 ![Circular labels](/img/Docs/circular_tree.png)
 
@@ -38,12 +38,15 @@ When you click **Show Tree**, tip labels auto-rotate to stay upright.
 * **Equalize Tips** uses radial distance.  
 * **Calibrate Scale** measures in *r* units from the centre.
 
+Otherwise both features work the same as in rectangular trees.
+
 ---
 
-### Gotchas
+## Gotchas
 
 | Issue | Fix |
 |-------|-----|
-| Branches don’t match | Re-check centre & break point |
+| Branches not overlapping the ones in the image | Re-check centre & break point |
 | calibration not giving correct node heights | Scale bars on circular trees are sometimes not oriented exactly radially |
 | A chaotic mess of vertical line branches | You are in rectangular mode on a circular tree |
+| name labels overlap at the bottom of the tree | drag one of the tips slightly until you can see the labels and check them|
