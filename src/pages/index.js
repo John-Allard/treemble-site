@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <Layout
       title="Treemble"
-      description="Treemble: Extract and edit Newick trees from phylogenetic images.">
+      description="Treemble: Extract and edit Newick strings from phylogenetic tree images.">
       <main className={styles.main}>
         <div className={styles.hero}>
           <div className={styles.inlineTitle}>
@@ -29,7 +29,7 @@ export default function Home() {
 
           {/* Short Tagline */}
           <p className={styles.tagline}>
-            A graphical tool to get a Newick string from a phylogenetic tree image
+            An easy tool to get a Newick string from a phylogenetic tree image
           </p>
 
           {/* “Download” as plain HTML links with a down‐arrow icon */}
@@ -77,6 +77,16 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+
+        <div className={styles.citationBox}>
+          <p>
+            <strong>If you use Treemble, please cite our paper:</strong><br />
+            <em>
+              “Treemble: a graphical tool to generate Newick strings from phylogenetic tree images.”<br />
+              John Allard and Sudhir Kumar. (coming soon on arXiv)
+            </em>
+          </p>
         </div>
 
       </main>
