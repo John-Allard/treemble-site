@@ -39,4 +39,4 @@ The Equalize Tips button will allow you to click a point on the image to set the
 ### Tips
 * There can only be one root. If you click a second time with the root node tool, it will move the root to the new position.
 * If your tips are not all at the same level, you can usually find some clusters of tips near each other and select them with the tip detet tool, but you can also add individual tips with the Tip tool.
-* Treemble will correctly connect a parent node to its children as long as its Y-axis coordinate is between them.  Asymmetry is only used as an indicator to help you locate problems when there are disconnected nodes.
+* Treemble will correctly connect a parent node to its children as long as its Y-axis coordinate is between them.
