@@ -17,7 +17,7 @@ Click **Show Newick**. A modal shows the string.
 
 ## 2. Copy or Save
 
-* **Copy** - Select the text and copy to your clipboard with <kbd>Ctrl C</kbd> or <kbd>⌘ C</kbd> on macOS.  
+* **Copy** - Select the text and copy to your clipboard with <kbd>Ctrl</kbd> + <kbd>C</kbd> (or <kbd>⌘</kbd> + <kbd>C</kbd> on macOS).  
 * **Save Newick** - press the **Save .nwk** button to download your newick file.
 
 ## 3. Cladograms vs Phylograms

@@ -7,7 +7,7 @@ title: UI Overview
 The main UI includes:
 
 - The canvas area
-- Toolbar with all of the [node placement](/docs/placing-nodes) tools, [calibration](/docs/scale-calibration), [buttons to show the tree and Newick](/docs/scale-calibration), and [options](/docs/options).
+- Toolbar with all of the [node placement](/docs/placing-nodes) and [calibration](/docs/scale-calibration) tools, [buttons to show the tree and Newick](/docs/scale-calibration), and [options](/docs/options).
 - The B/W checkbox in the upper right will toggle your image to gray scale to make it easier to see your nodes.
 - In the upper right of the canvas area, an overlay displays the number of tip nodes placed
 

@@ -26,14 +26,11 @@ Click **File ▾ → Save CSV**. Treemble generates text such as:
 
 ## 2. Load a CSV
 
-Click **File ▾ → Load CSV** and select a file with this same schema. You can also drag and drop a CSV file onto the window. Treemble will:
+Click **File ▾ → Load CSV** and select a file with this schema. You can also drag and drop a CSV file onto the window. Treemble will:
 
-1. Clear all existing nodes.
-2. Re-create each node at the given `(x, y)` coordinates and assign the proper `type`.
-3. For every `tip` row, assign the `name` field as the tip label, if the CSV file contained names.
+1. Re-create each node at the given `(x, y)` coordinates and assign the proper `type`.
+2. For every `tip` row, assign the `name` field as the tip label, if the CSV file contained names.
+3. If you already had nodes placed, and you load a CSV via the menu or by dragging and dropping the file, a dialog will first ask if you want to replace the existing data. You will also have to option to perform a [diff](/docs/diff-tip-names-in-a-csv-file).
 
-If the CSV was saved from a differently sized image, Treemble will warn you and refuse to load.
-
-If you already have nodes placed, and you load a CSV, a dialog will ask if you want to replace the existing data.  You will also have to option to perform a [diff](/docs/diff-tip-names-in-a-csv-file).
 
 

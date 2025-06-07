@@ -7,7 +7,7 @@ Convert pixel distances into real-world branch lengths or divergence times.
 ## 1. Launch Calibration
 
 Click **Calibrate Scale** in the toolbar.  
-A banner prompts you to pick two calibration points.
+Banners prompt you to pick two calibration points to define a horizontal interval of known length/time.
 
 ## 2. Pick Points
 
@@ -27,7 +27,7 @@ Enter a **numeric value**.  The units are treated as arbitrary but could represe
 | Tree Shape | What Treemble Stores |
 |------------|----------------------|
 | *Rectangular* | Δ X between clicks |
-| *Circular*    | Δ radius from centre |
+| *Circular*    | Δ radius from center |
 
 Treemble records the conversion in **units per pixel**. All branch-length tokens generated in the Newick will be properly scaled.
 

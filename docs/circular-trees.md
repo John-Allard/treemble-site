@@ -9,14 +9,14 @@ Treemble supports radial (circular) tree diagrams in addition to rectangular one
 Open **Options → Tree Shape → Circular**.
 
 
-## 2. Define Centre & Break Point
+## 2. Define Center & Break Point
 
 You will need to indicate the center point and a break point. 
 
 The breakpoint is used as the starting point for your tip name labels.  Names you enter will be assigned to tips starting with the one just clockwise from that point and continuing around in clockwise order.
 
 1. Click the **Center & Break** button in the toolbar.  
-2. **First click** = centre of the circle.  An overlay helps you align with the circular branches.
+2. **First click** = center of the circle.  An overlay helps you align with the circular branches.
 3. **Second click** = break point angle (the gap in the branches).
 
 A banner confirms when both are set.  A marker will indicate the break point on the screen and radial / angular cross hair overlay will replace the Cartesian one.
@@ -36,7 +36,7 @@ When you click **Show Tree**, tip name labels are displayed radially in the typi
 ## 5. Equalize & Calibration
 
 * **Equalize Tips** uses radial distance.  
-* **Calibrate Scale** measures in *r* units from the centre.
+* **Calibrate Scale** measures in *r* units from the center.
 
 Otherwise both features work the same as in rectangular trees.
 
@@ -46,7 +46,7 @@ Otherwise both features work the same as in rectangular trees.
 
 | Issue | Fix |
 |-------|-----|
-| Branches not overlapping the ones in the image | Re-check centre & break point |
+| Branches not overlapping the ones in the image | Re-check center & break point |
 | calibration not giving correct node heights | Scale bars on circular trees are sometimes not oriented exactly radially |
 | A chaotic mess of vertical line branches | You are in rectangular mode on a circular tree |
 | name labels overlap at the bottom of the tree | drag one of the tips slightly until you can see the labels and check them|

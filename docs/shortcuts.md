@@ -6,22 +6,22 @@ Boost your productivity with these hotkeys.
 
 | Key / Combo | Action |
 |-------------|--------|
-| **T** | Switch to *Tip* node mode |
-| **I** | Switch to *Internal* node mode |
-| **R** | Switch to *Root* node mode |
-| **D** | Toggle *Tip Detection* mode |
-| **S** | Show / Hide tree overlay |
-| **C** | Start or cancel *Scale Calibration* |
-| **E** | *Equalize Tips* |
-| **B** | Toggle **B/W** image mode |
-| **\[** / **\]** | Zoom out / Zoom in |
-| **+** / **−** | Increase / Decrease tip-label font |
-| **P** | Pencil draw mode (blank canvas) |
-| **L** | Line draw mode (blank canvas) |
-| **Backspace** | Eraser (blank canvas) |
-| **Ctrl + S** | Quick-save CSV |
-| **Enter** | Confirm the default response to dialogs (OK) |
+| <kbd>B</kbd> | Toggle gray scale image mode |
+| <kbd>T</kbd> | Switch to *Tip* node mode |
+| <kbd>I</kbd> | Switch to *Internal* node mode |
+| <kbd>R</kbd> | Switch to *Root* node mode |
+| <kbd>D</kbd> | Toggle *Tip Detection* mode |
+| <kbd>C</kbd> | Start or cancel *Scale Calibration* |
+| <kbd>E</kbd> | *Equalize Tips* |
+| <kbd>S</kbd> | Show / Hide tree overlay |
+| <kbd>[</kbd> / <kbd>]</kbd> | Zoom out / Zoom in |
+| <kbd>+</kbd> / <kbd>−</kbd> | Increase / Decrease tip-label font |
+| <kbd>P</kbd> | Pencil draw mode (blank canvas) |
+| <kbd>L</kbd> | Line draw mode (blank canvas) |
+| <kbd>Backspace</kbd> | Eraser (blank canvas) |
+| <kbd>Ctrl</kbd> + <kbd>Z</kbd> | Quick-save CSV |
+| <kbd>Enter</kbd> | Confirm the default response to dialogs (OK) |
 
 ---
 
-> **Tip:** Hold **Ctrl** and left click to zoom in (or **Ctrl** and right click to zoom out) anywhere, even during node placement, calibration, etc.
+> **Tip:** Hold <kbd>Ctrl</kbd> and left click to zoom in (or <kbd>Ctrl</kbd> and right click to zoom out) anywhere, even during node placement, calibration, etc.

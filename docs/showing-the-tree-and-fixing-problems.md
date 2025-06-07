@@ -15,6 +15,8 @@ Treemble automatically calculates your tree's connectivity from the node locatio
 
 ![Show tree screenshot](/img/Docs/Treemble_with_show_tree_but_not_tip_names.png)
 
+Tip: By pressing the <kbd>S</kbd> key repeatedly, you can flash the branch overlays on and off, making it easy to confirm that you the recreated tree fully overlaps the tree in teh image.
+
 ## 2. Fixing Problems
 
 If you missed placing a node, the tree computing algorithm will fail to recreate the fully connected bifurcating tree.  Treemble will help you to find the location of the problem.

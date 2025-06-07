@@ -32,16 +32,16 @@ export default function Home() {
             An easy tool to get a Newick string from a phylogenetic tree image
           </p>
 
-          {/* “Download” as plain HTML links with a down‐arrow icon */}
+          {/* “Download” links to the static builds you added */}
           <div className={styles.links}>
             <a
-              href="https://github.com/John-Allard/treemble/releases/latest/download/Treemble-macOS.dmg"
+              href="/Treemble_1.3.3_aarch64.dmg.zip"
               className={styles.simpleLink}
             >
               ⬇ Download for macOS
             </a>
             <a
-              href="https://github.com/John-Allard/treemble/releases/latest/download/Treemble-Windows.exe"
+              href="/Treemble_1.3.3_x64_en-US.msi"
               className={styles.simpleLink}
             >
               ⬇ Download for Windows

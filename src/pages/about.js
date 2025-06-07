@@ -21,19 +21,28 @@ export default function About() {
               <a href="https://www.kumarlab.net/" target="_blank" rel="noopener noreferrer">
                 Kumar Lab
               </a>{' '}
-              and the{' '}
+              within the{' '}
               <a href="https://igem.temple.edu/" target="_blank" rel="noopener noreferrer">
                 Institute for Genomics and Evolutionary Medicine
               </a>{' '}
               at Temple University.
             </p>
+            <p>
+              Treemble was developed to make phylogenetic data more accessible and reusable. In modern
+              biology, tree diagrams are everywhere, but most exist only as static images in figures,
+              disconnected from the computational tools that depend on them. Without Newick files, these
+              trees are locked away from reproducibility, meta-analysis, and comparative work. Treemble
+              provides a practical solution: a guided, visual tool that lets users recover tree topologies
+              from images and export them in a usable format for further scientific investigation.
+            </p>
+            <hr></hr>
             <h3>About the Creator:</h3>
             <p>
               I’m a PhD candidate in Bioinformatics at Temple University. My research focuses on
-              developing methods to apply AI and machine learning to comparative genomics, with a focus on 
+              developing methods to apply AI and machine learning to comparative genomics, with a focus on
               understanding the genetic basis of traits that evolve convergently. My particular
               interest is in leveraging evolutionary comparative methods to understand the biology of
-              extreme longevity, which has convergently evolved many times in the animal kingdom. 
+              extreme longevity, which has convergently evolved many times in the animal kingdom.
             </p>
             <p>
               ➤{' '}
