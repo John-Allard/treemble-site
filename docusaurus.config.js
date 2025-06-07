@@ -23,8 +23,9 @@ module.exports = {
       items: [
         { to: '/docs/intro', label: 'Docs', position: 'left' },
         { to: '/about', label: 'About', position: 'left' },
+        { to: '/coming_soon', label: 'Paper', position: 'left' },
         {
-          href: 'https://github.com/John-Allard/treemble',
+          to: '/coming_soon',
           label: 'GitHub',
           position: 'right',
         },
@@ -42,7 +43,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub Discussions',
-              href: 'https://github.com/John-Allard/treemble/discussions',
+              to: '/coming_soon',
             },
           ],
         },
@@ -51,7 +52,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/John-Allard/treemble',
+              to: '/coming_soon',
             },
             {
               label: 'Contact',
