@@ -10,6 +10,8 @@ You can download Treemble from:
 - [Windows Version](/Treemble_1.3.3_x64_en-US.msi) (.msi file, 4MB)
 - Linux version coming soon
 
+The current version of Treemble is v1.3.3
+
 #### System requirements:
 
 * macOS: macOS Catalina (10.15) or later

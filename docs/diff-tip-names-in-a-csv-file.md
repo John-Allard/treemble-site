@@ -2,11 +2,11 @@
 title: Diff Tip Names in a CSV File
 ---
 
-Need to compare two name lists? Treemble can flag mismatches visually.
+Need to compare two name lists? Treemble can flag mismatches visually. This can aid in checking the spelling of tip names, which is likely to be the most difficult step
 
 ## 1. Prepare
 
-* Load your tree image and tip-names list (`File ▾ → Load Tip Names…`).  
+* Load your tree image and tip-names list (`File ▾ → Load Tip Names File…`).  
 * Ensure nodes are placed.
 
 ## 2. Run Diff
@@ -30,5 +30,5 @@ You can also drag and drop a CSV file onto the window where you already have nam
 
 ### Tips
 
-* After adding your names from one OCR method, you can first save the CSV, then load another tip names TXT file from a *different ORC method* then drag and drop the CSV you just saved and choose diff. You can then focus on checking names where they did not agree.
+* After adding your names from one OCR method, you can first save the CSV, then load another tip names TXT file from a *different OCR method* then drag and drop the CSV you just saved and choose diff. You can then focus on checking names where they did not agree.
 * A successful diff shows **no flags** and a green banner.

@@ -29,11 +29,11 @@ export default function About() {
             </p>
             <p>
               Treemble was developed to make phylogenetic data more accessible and reusable. In modern
-              biology, tree diagrams are everywhere, but most exist only as static images in figures,
-              disconnected from the computational tools that depend on them. Without Newick files, these
-              trees are locked away from reproducibility, meta-analysis, and comparative work. Treemble
-              provides a practical solution: a guided, visual tool that lets users recover tree topologies
-              from images and export them in a usable format for further scientific investigation.
+              biology, tree diagrams are everywhere, but most exist only as static images in figures. 
+              Without Newick files, these trees are locked away from reproducibility, meta-analysis, and 
+              comparative work. Treemble provides a practical solution: a guided, visual tool that lets 
+              users recover tree topologies from images and export them in a usable format for further 
+              scientific investigation.
             </p>
             <hr></hr>
             <h3>About the Creator:</h3>

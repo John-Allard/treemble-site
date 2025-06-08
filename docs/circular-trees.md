@@ -19,7 +19,7 @@ The breakpoint is used as the starting point for your tip name labels.  Names yo
 2. **First click** = center of the circle.  An overlay helps you align with the circular branches.
 3. **Second click** = break point angle (the gap in the branches).
 
-A banner confirms when both are set.  A marker will indicate the break point on the screen and radial / angular cross hair overlay will replace the Cartesian one.
+A banner confirms when both are set.  A marker will indicate the break point on the screen and a radial / angular cross hair overlay will replace the Cartesian one.
 
 ![Circular labels](/img/Docs/center_selection.png)
 
@@ -42,11 +42,8 @@ Otherwise both features work the same as in rectangular trees.
 
 ---
 
-## Gotchas
+### Tips
 
-| Issue | Fix |
-|-------|-----|
-| Branches not overlapping the ones in the image | Re-check center & break point |
-| calibration not giving correct node heights | Scale bars on circular trees are sometimes not oriented exactly radially |
-| A chaotic mess of vertical line branches | You are in rectangular mode on a circular tree |
-| name labels overlap at the bottom of the tree | drag one of the tips slightly until you can see the labels and check them|
+* Scale bars on circular trees are sometimes not oriented exactly radially.
+* If you see a chaotic mess of vertical line branches, you may have switched to rectangular mode on a circular tree.
+* If teo name labels overlap at the bottom of the tree, drag one of the tip nodes slightly until you can see the labels and check them, then move it back.

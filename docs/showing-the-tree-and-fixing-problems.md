@@ -15,7 +15,7 @@ Treemble automatically calculates your tree's connectivity from the node locatio
 
 ![Show tree screenshot](/img/Docs/Treemble_with_show_tree_but_not_tip_names.png)
 
-Tip: By pressing the <kbd>S</kbd> key repeatedly, you can flash the branch overlays on and off, making it easy to confirm that you the recreated tree fully overlaps the tree in teh image.
+Tip: By pressing the <kbd>S</kbd> key repeatedly, you can flash the branch overlays on and off, making it easy to confirm that the recreated tree fully overlaps the tree in the image.
 
 ## 2. Fixing Problems
 
@@ -39,7 +39,9 @@ Red rings highlight nodes that are missing either a parent or one or both child 
 
 ## 5. Asymmetry Highlighting
 
-Treemble marks highly unbalanced internal nodes in yellow. Look around for a missed node location, or extra tip node, or other problems near the yellow marked nodes, because assymetry is usually caused by distortion due to incorrect connections. The sensitivity threshold for asymmetry warnings is configurable under **Options**.
+In typical rectangular phylogenetic tree figures, internal nodes are located at Y-axis coordinates that are equidistant from their two children. Treemble makes use of this fact to help with locating node placement problems by showing a yellow ring around internal nodes with distorted symmetry. Look around for a missed node location, or extra tip node, or other problems near the yellow marked nodes. The *shallowest* node with a yellow ring is often (but not necessarily always) the closest to the problem location.
+
+In rare cases of trees with many asymmetrically positioned internal nodes, you can set the sensitivity threshold for asymmetry warnings to a high number to turn off this feature (under **Options**).
 
 
 

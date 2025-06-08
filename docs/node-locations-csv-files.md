@@ -12,7 +12,7 @@ Treemble can save and restore every node’s coordinates (and tip names) to/from
 
 ## 1. Save a CSV
 
-Click **File ▾ → Save CSV**. Treemble generates text such as:
+Click **File ▾ → Save CSV**. Treemble generates data in this format:
 
 | x     | y     | type    | name             |
 |-------|-------|---------|------------------|
@@ -21,8 +21,7 @@ Click **File ▾ → Save CSV**. Treemble generates text such as:
 | 122.6 | 791.3 | root    |                  |
 | 420.2 | 650.8 | tip     | Pan troglodytes  |
 
-- Rows appear in the exact order you placed the nodes.
-- Tip names are matched top-to-bottom (rectangular mode) or anticlockwise from the break point (circular mode) before being inserted into the `name` column.
+Rows appear in the order you placed the nodes. 
 
 ## 2. Load a CSV
 
@@ -30,7 +29,4 @@ Click **File ▾ → Load CSV** and select a file with this schema. You can also
 
 1. Re-create each node at the given `(x, y)` coordinates and assign the proper `type`.
 2. For every `tip` row, assign the `name` field as the tip label, if the CSV file contained names.
-3. If you already had nodes placed, and you load a CSV via the menu or by dragging and dropping the file, a dialog will first ask if you want to replace the existing data. You will also have to option to perform a [diff](/docs/diff-tip-names-in-a-csv-file).
-
-
-
+3. If you already had nodes placed, and you load a CSV via dragging and dropping the file, a dialog will first ask if you want to replace the existing data. You will also have to option to perform a [diff](/docs/diff-tip-names-in-a-csv-file).
