@@ -35,6 +35,11 @@ export default function About() {
               users recover tree topologies from images and export them in a usable format for further 
               scientific investigation.
             </p>
+            <p>
+              <a href="/docs/use-cases" className={styles.link}>
+                What is Treemble useful for? →
+              </a>
+            </p>
             <hr></hr>
             <h3>About the Creator:</h3>
             <p>
