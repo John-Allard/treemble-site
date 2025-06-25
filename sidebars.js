@@ -45,6 +45,7 @@ const sidebars = {
       items: [
         'troubleshooting',
         'shortcuts',
+        'use-cases',
       ],
     },
   ],

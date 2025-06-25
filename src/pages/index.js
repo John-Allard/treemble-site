@@ -35,13 +35,13 @@ export default function Home() {
           {/* “Download” links to the static builds you added */}
           <div className={styles.links}>
             <a
-              href="/Treemble_1.3.3_aarch64.dmg"
+              href="/Treemble_1.4.0_aarch64.dmg"
               className={styles.simpleLink}
             >
               ⬇ Download for macOS
             </a>
             <a
-              href="/Treemble_1.3.3_x64_en-US.msi"
+              href="/Treemble_1.4.0_x64_en-US.msi"
               className={styles.simpleLink}
             >
               ⬇ Download for Windows

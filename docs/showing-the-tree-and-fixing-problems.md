@@ -17,6 +17,12 @@ Treemble automatically calculates your tree's connectivity from the node locatio
 
 Tip: By pressing the <kbd>S</kbd> key repeatedly, you can flash the branch overlays on and off, making it easy to confirm that the recreated tree fully overlaps the tree in the image.
 
+### Exporting an SVG of the Tree
+
+At this point, you can save the branch overlay that treemble plots as a clean vector graphic (no background image, no node dots). Choose `File ▾ → Export Tree SVG`.
+
+Treemble will save an `.svg` file containing exactly the plotted branches. If tip names have been added, those labels will be included in the SVG. This is ideal for importing into illustration or slideshow software where you can edit the label text and adjust delete or add branches as needed for display purposes. 
+
 ## 2. Fixing Problems
 
 If you missed placing a node, the tree computing algorithm will fail to recreate the fully connected bifurcating tree.  Treemble will help you to find the location of the problem.
