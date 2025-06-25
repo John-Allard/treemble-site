@@ -20,6 +20,12 @@ Treemble is a lightweight, canvas-based tool for extracting, editing, and export
 - **Interactive hypothesis generation**  
   Quickly sketch variations on a backbone tree to explore how different topologies affect downstream statistics.
 
+- **Teaching phylogenetics / clustering**  
+  Let students sketch trees by hand or drag-and-drop tip names, then immediately export a Newick string to see how their trees parse in R or Python, or open it in a tree editor like MEGA.
+
+- **Dichotomous taxonomic keys**  
+  Classic identification keys successively split specimens into two mutually exclusive groups at each step.
+
 ---
 
 ## 2. Dendrograms & Hierarchical Clustering
@@ -27,21 +33,20 @@ Treemble is a lightweight, canvas-based tool for extracting, editing, and export
 - **Data science & machine learning**  
   Visualize and refine hierarchical clustering outputs (e.g. customer segments, gene expression clusters) by editing cluster shapes, pruning branches, or relabeling tips.
 
-- **Quality control**  
-  Spot mis-clustered items at a glance, redraw small subtrees, and re-export for polished reporting.
+- **Decision-tree model diagrams**  
+  Most machine-learning decision trees split on a yes/no criterion at every node, producing a binary tree.
 
 ---
 
 ## 3. Other Fields
 
+Treemble may be useful in many fields where Trees are used to represent hierarchical relationships.
+
 - **Evolutionary trees in other settings**
   Fields like linguistics also use evolutionary trees to represent ancestral splitting events through time.
 
-- **Decision-tree model diagrams**  
-  Most machine-learning decision trees split on a yes/no criterion at every node, producing a binary tree.
-
-- **Dichotomous taxonomic keys**  
-  Classic identification keys successively split specimens into two mutually exclusive groups at each step.
+- **Medical differential diagnosis trees**  
+  Construct or refine yes/no diagnostic trees that help clinicians narrow possible conditions step-by-step.
 
 - **Troubleshooting flowcharts (yes/no)**  
   Technical support or diagnostic guides that follow binary questions map cleanly onto bifurcating trees.
@@ -50,21 +55,11 @@ Treemble is a lightweight, canvas-based tool for extracting, editing, and export
   Story paths designed with two options at each decision point can be extracted and re-edited as binary trees.
 
 - **Single-elimination tournament brackets**  
-  Sports or e-sports brackets progress via head-to-head matches, forming a perfectly bifurcating tree.
+  Sports or e-sports brackets progress via head-to-head matches.
 
 ---
 
-## 4. Education & Outreach
-
-- **Teaching phylogenetics / clustering**  
-  Let students sketch trees by hand or drag-and-drop tip names, then immediately export a Newick string to see how their trees parse in R or Python, or.
-
-- **Interactive workshops**  
-  Use Treemble in live demos—draw, export, and re-draw—to illustrate the impact of different tree shapes on evolutionary inferences.
-
----
-
-## 5. Figures, Posters & Publications
+## 4. Figures, Posters & Publications
 
 - **Rapid figure prototyping**  
   Sketch a draft tree, export SVG, drop into Illustrator or Inkscape, and add styling—all in minutes instead of hours.
