@@ -6,11 +6,11 @@ title: Getting Started
 
 You can download Treemble from:
 
-- [macOS Version](/Treemble_1.4.0_aarch64.dmg) (.dmg file, 7MB)
-- [Windows Version](/Treemble_1.4.0_x64_en-US.msi) (.msi file, 4MB)
+- [macOS Version](/Treemble_1.4.1_aarch64.dmg) (.dmg file, 7MB)
+- [Windows Version](/Treemble_1.4.1_x64_en-US.msi) (.msi file, 4MB)
 - Linux version coming soon
 
-The current version of Treemble is v1.4.0
+The current version of Treemble is v1.4.1
 
 #### System requirements:
 

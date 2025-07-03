@@ -15,7 +15,7 @@ Treemble is a lightweight, canvas-based tool for extracting, editing, and export
   Merge clades from different studies into a single “supertree,” or rapidly sketch alternative hypotheses for topology testing.
 
 - **Whiteboard→Analysis workflow**  
-  Snap a photo of a rough draft on a whiteboard or paper, extract its Newick, then feed it directly into R, Python, or open it in MEGA, FigTree,or other phylogenetics software.
+  Snap a photo of a rough draft on a whiteboard or paper, extract its Newick, then feed it directly into R, Python, or open it in MEGA, FigTree, or other phylogenetics software.
 
 - **Interactive hypothesis generation**  
   Quickly sketch variations on a backbone tree to explore how different topologies affect downstream statistics.
@@ -25,7 +25,7 @@ Treemble is a lightweight, canvas-based tool for extracting, editing, and export
 
 - **Dichotomous taxonomic keys**  
   Classic identification keys successively split specimens into two mutually exclusive groups at each step.
-
+ 
 ---
 
 ## 2. Dendrograms & Hierarchical Clustering
