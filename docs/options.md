@@ -19,7 +19,7 @@ Click the **Options** button on the toolbar.
 |             | Font Size       | Font size for tip labels |
 | **Validation** | Asymmetry threshold | Ratio ≥ X : 1 flagged yellow |
 | **Tree Type** |  Phylogram / Cladogram | Cladograms will not include branch lengths in the Newick string |
-| **Tree Shape** | Rectangular / Circular | Rectangular is standard. [More on Circular Trees](/docs/circular-trees) |
+| **Tree Shape** | Rectangular / Circular / Freeform | Rectangular is standard; **Freeform** disables automatic layout. [More on Circular Trees](/docs/circular-trees) · [Manual Connections & Polytomies](/docs/manual-connections-and-polytomies) |
 
 Changes apply immediately and are remembered per-session.
 

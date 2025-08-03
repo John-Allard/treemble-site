@@ -29,7 +29,7 @@ You can launch the **Quick Start Guide** within Treemble for a quick overview: `
 ## Tree Requirements
 
 **There are two requirements for Treemble to work:**
-* The tree should be oriented with the root at the left and tips at the right (or they can be placed radially in circular tree mode). Treemble cannot handle free form trees.
+* The tree should be oriented with the root at the left and tips at the right (or placed radially in circular tree mode).  For unconstrained layouts see [Manual Connections & Polytomies](/docs/manual-connections-and-polytomies).
 * The tree must be bifurcating, i.e. every internal node must have exactly two child nodes. However, if there are nodes with more than 2 child nodes, you can still extract the tree with Treemble by placing extra nodes to create bifurcations with ~0 length.
 
 ![UI overview](/img/Docs/blank_treemble_with_file_menu_open.png)

@@ -33,6 +33,7 @@ const sidebars = {
       label: 'Advanced Features',
       collapsed: false,
       items: [
+        'manual-connections-and-polytomies',
         'circular-trees',
         'node-locations-csv-files',
         'diff-tip-names-in-a-csv-file'
