@@ -24,11 +24,12 @@ module.exports = {
         { to: '/docs/intro', label: 'Docs', position: 'left' },
         { to: '/about', label: 'About', position: 'left' },
         { href: 'https://arxiv.org/abs/2508.07081', label: 'Paper', position: 'left' },
-        {
-          to: '/coming_soon',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // GitHub link temporarily hidden until journal publication
+        // {
+        //   to: '/coming_soon',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -41,19 +42,21 @@ module.exports = {
         {
           title: 'Community',
           items: [
-            {
-              label: 'GitHub Discussions',
-              to: '/coming_soon',
-            },
+            // GitHub Discussions link temporarily hidden until journal publication
+            // {
+            //   label: 'GitHub Discussions',
+            //   to: '/coming_soon',
+            // },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'GitHub',
-              to: '/coming_soon',
-            },
+            // GitHub link temporarily hidden until journal publication
+            // {
+            //   label: 'GitHub',
+            //   to: '/coming_soon',
+            // },
             {
               label: 'Contact',
               href: 'mailto:john.allard@temple.edu',

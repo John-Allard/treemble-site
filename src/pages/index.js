@@ -65,7 +65,7 @@ export default function Home() {
                 <img src={markNodesImage} alt="Feature 1" className={screenshotStyles.screenshotImage} />
               </Link>
               <p className={screenshotStyles.screenshotCaption}>
-                Mark node locations on your image of a phylogenetic tree figure (includes automatic tip detection!)
+                Mark node locations on your image of a phylogenetic tree figure (includes automatic tip detection)
               </p>
             </div>
             <div className={screenshotStyles.screenshotItem}>
@@ -73,7 +73,7 @@ export default function Home() {
                 <img src={newickModalImage} alt="Feature 2" className={screenshotStyles.screenshotImage} />
               </Link>
               <p className={screenshotStyles.screenshotCaption}>
-                Automatically generates a Newick string that matches the figure!
+                Automatically generates a Newick string that matches the figure
               </p>
             </div>
           </div>
