@@ -23,7 +23,7 @@ module.exports = {
       items: [
         { to: '/docs/intro', label: 'Docs', position: 'left' },
         { to: '/about', label: 'About', position: 'left' },
-        { to: '/coming_soon', label: 'Paper', position: 'left' },
+        { href: 'https://arxiv.org/abs/2508.07081', label: 'Paper', position: 'left' },
         {
           to: '/coming_soon',
           label: 'GitHub',

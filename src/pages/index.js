@@ -82,10 +82,9 @@ export default function Home() {
         <div className={styles.citationBox}>
           <p>
             <strong>If you use Treemble, please cite our paper:</strong><br />
-            <em>
-              “Treemble: a graphical tool to generate Newick strings from phylogenetic tree images.”<br />
-              John Allard and Sudhir Kumar. (coming soon on arXiv)
-            </em>
+            <em>Treemble: A Graphical Tool to Generate Newick Strings from Phylogenetic Tree Images.</em><br />
+            John B. Allard and Sudhir Kumar (2025).<br />
+            arXiv: <a href="https://arxiv.org/abs/2508.07081" target="_blank" rel="noopener noreferrer">2508.07081</a>. DOI: <a href="https://doi.org/10.48550/arXiv.2508.07081" target="_blank" rel="noopener noreferrer">10.48550/arXiv.2508.07081</a>
           </p>
         </div>
 
