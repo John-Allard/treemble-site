@@ -20,6 +20,7 @@ const sidebars = {
         'getting-started',
         'ui-overview',
         'placing-nodes',
+        'internal-node-detection',
         'scale-calibration',
         'showing-the-tree-and-fixing-problems',
         'adding-and-editing-tip-names',

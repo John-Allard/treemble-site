@@ -22,6 +22,13 @@ A new **Draw ▾** dropdown appears:
 
 ![Drawing tools screenshot](/img/Docs/blank_canvas_draw_mode.png)
 
+### Undo / Redo for Drawing
+
+When using the drawing tools (Pencil, Line, or Eraser), you can undo and redo your strokes:
+
+- **Ctrl+Z** (or **Cmd+Z** on macOS): Undo the last drawing stroke
+- **Ctrl+Y** (or **Shift+Cmd+Z** on macOS): Redo the last undone stroke
+
 
 ## 3. Converting Sketch to Tree
 

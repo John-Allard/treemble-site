@@ -65,7 +65,7 @@ export default function Home() {
                 <img src={markNodesImage} alt="Feature 1" className={screenshotStyles.screenshotImage} />
               </Link>
               <p className={screenshotStyles.screenshotCaption}>
-                Mark node locations on your image of a phylogenetic tree figure (includes automatic tip detection)
+                Mark node locations on your image of a phylogenetic tree figure (includes automatic node detection using a specially trained deep learning model)
               </p>
             </div>
             <div className={screenshotStyles.screenshotItem}>
