@@ -41,7 +41,7 @@ export default function Home() {
               ⬇ Download for macOS
             </a>
             <a
-              href="/Treemble_1.5.0_x64_en-US.msi"
+              href="/Treemble_1.6.0_x64_en-US.msi"
               className={styles.simpleLink}
             >
               ⬇ Download for Windows
