@@ -57,7 +57,7 @@ export default function About() {
             </p>
             <p>
               ➤{' '}
-              <a href="https://cst.temple.edu/about/faculty-staff/john-allard" target="_blank" rel="noopener noreferrer">
+              <a href="https://cst.temple.edu/directory/john-allard" target="_blank" rel="noopener noreferrer">
                 Temple Biology Graduate Student Page
               </a>
             </p>
