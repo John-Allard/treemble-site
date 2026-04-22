@@ -43,7 +43,7 @@ export default function About() {
             <hr></hr>
             <h3>About the Creator:</h3>
             <p>
-              I’m a PhD candidate in Bioinformatics at Temple University. My research focuses on
+              I’m a PhD candidate in Bioinformatics at Temple University (graduating May 2026). My research focuses on
               developing methods to apply AI and machine learning to comparative genomics, with a focus on
               understanding the genetic basis of traits that evolve convergently. My particular
               interest is in leveraging evolutionary comparative methods to understand the biology of
