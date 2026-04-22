@@ -42,11 +42,10 @@ module.exports = {
         {
           title: 'Community',
           items: [
-            // GitHub Discussions link temporarily hidden until journal publication
-            // {
-            //   label: 'GitHub Discussions',
-            //   to: '/coming_soon',
-            // },
+            {
+              label: 'Report an Issue',
+              href: 'https://github.com/John-Allard/treemble-site/issues/new',
+            },
           ],
         },
         {
