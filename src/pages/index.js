@@ -83,8 +83,8 @@ export default function Home() {
           <p>
             <strong>If you use Treemble, please cite our paper:</strong><br />
             <em>Treemble: A Graphical Tool to Generate Newick Strings from Phylogenetic Tree Images.</em><br />
-            John B. Allard and Sudhir Kumar (2025).<br />
-            arXiv: <a href="https://arxiv.org/abs/2508.07081" target="_blank" rel="noopener noreferrer">2508.07081</a>. DOI: <a href="https://doi.org/10.48550/arXiv.2508.07081" target="_blank" rel="noopener noreferrer">10.48550/arXiv.2508.07081</a>
+            John B. Allard and Sudhir Kumar.<br />
+            Bioinformatics, accepted manuscript, btag197. DOI: <a href="https://doi.org/10.1093/bioinformatics/btag197" target="_blank" rel="noopener noreferrer">10.1093/bioinformatics/btag197</a>
           </p>
         </div>
 

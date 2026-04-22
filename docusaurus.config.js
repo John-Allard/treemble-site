@@ -23,7 +23,7 @@ module.exports = {
       items: [
         { to: '/docs/intro', label: 'Docs', position: 'left' },
         { to: '/about', label: 'About', position: 'left' },
-        { href: 'https://arxiv.org/abs/2508.07081', label: 'Paper', position: 'left' },
+        { href: 'https://doi.org/10.1093/bioinformatics/btag197', label: 'Paper', position: 'left' },
         // GitHub link temporarily hidden until journal publication
         // {
         //   to: '/coming_soon',
