@@ -54,6 +54,13 @@ export default function Home() {
               Read the User Guide
             </Link>
           </div>
+
+          <p className={styles.viewerLink}>
+            Try our browser-based tree viewer for very large phylogenies:{' '}
+            <a href="https://bigtreeview.net" target="_blank" rel="noopener noreferrer">
+              Big Tree Viewer
+            </a>
+          </p>
         </div> {/* end of .hero */}
 
         {/* Feature Screenshots */}

@@ -46,6 +46,12 @@
   margin-top: 1rem;
 }
 
+.viewerLink {
+  margin: 1.5rem auto 0;
+  font-size: 1.05rem;
+  color: var(--ifm-color-text);
+}
+
 /* Responsive tweaks for small screens */
 @media (max-width: 480px) {
   .logo {
