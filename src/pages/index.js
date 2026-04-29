@@ -89,7 +89,7 @@ export default function Home() {
 
         <p className={styles.viewerLink}>
           Try our browser-based tree viewer for very large phylogenies:{' '}
-          <a href="https://bigtreeview.net" target="_blank" rel="noopener noreferrer">
+          <a href="https://bigtreeviewer.net/" target="_blank" rel="noopener noreferrer">
             Big Tree Viewer
           </a>
         </p>
