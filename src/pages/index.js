@@ -55,12 +55,6 @@ export default function Home() {
             </Link>
           </div>
 
-          <p className={styles.viewerLink}>
-            Try our browser-based tree viewer for very large phylogenies:{' '}
-            <a href="https://bigtreeview.net" target="_blank" rel="noopener noreferrer">
-              Big Tree Viewer
-            </a>
-          </p>
         </div> {/* end of .hero */}
 
         {/* Feature Screenshots */}
@@ -92,6 +86,13 @@ export default function Home() {
             John B Allard, Sudhir Kumar, Treemble: A Graphical Tool to Generate Newick Strings from Phylogenetic Tree Images, Bioinformatics, 2026;, btag197, <a href="https://doi.org/10.1093/bioinformatics/btag197" target="_blank" rel="noopener noreferrer">https://doi.org/10.1093/bioinformatics/btag197</a>
           </p>
         </div>
+
+        <p className={styles.viewerLink}>
+          Try our browser-based tree viewer for very large phylogenies:{' '}
+          <a href="https://bigtreeview.net" target="_blank" rel="noopener noreferrer">
+            Big Tree Viewer
+          </a>
+        </p>
 
       </main>
     </Layout>

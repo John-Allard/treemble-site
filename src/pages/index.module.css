@@ -47,7 +47,9 @@
 }
 
 .viewerLink {
-  margin: 1.5rem auto 0;
+  margin: 0 auto 4rem;
+  max-width: 800px;
+  text-align: center;
   font-size: 1.05rem;
   color: var(--ifm-color-text);
 }
@@ -136,7 +138,7 @@
   background-color: var(--ifm-background-surface-color);
   border-left: 4px solid var(--ifm-color-primary);
   padding: 1rem 1.5rem;
-  margin: 3rem auto 4rem auto;
+  margin: 3rem auto 1.5rem auto;
   max-width: 800px;
   font-size: 1rem;
   line-height: 1.6;
