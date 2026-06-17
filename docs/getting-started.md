@@ -6,11 +6,11 @@ title: Getting Started
 
 You can download Treemble from:
 
-- [macOS Version](/Treemble_1.6.1_aarch64.dmg) (.dmg file, 15MB)
+- [macOS Version](/Treemble_1.6.2_aarch64.dmg) (.dmg file, 14MB)
 - [Windows Version](/Treemble_1.6.1_x64_en-US.msi) (.msi file, 21MB)
 - Linux version coming soon
 
-The current version of Treemble is v1.6.1
+The current macOS version of Treemble is v1.6.2. The Windows download remains v1.6.1 while the signed v1.6.2 Windows build is prepared.
 
 #### System requirements:
 
@@ -33,6 +33,5 @@ You can launch the **Quick Start Guide** within Treemble for a quick overview: `
 * The tree must be bifurcating, i.e. every internal node must have exactly two child nodes. However, if there are nodes with more than 2 child nodes, you can still extract the tree with Treemble by placing extra nodes to create bifurcations with ~0 length.
 
 ![UI overview](/img/Docs/blank_treemble_with_file_menu_open.png)
-
 
 
